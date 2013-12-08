@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="fluxApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Stichting Societeit Flux</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/grid.css" rel="stylesheet" type="text/css" />
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/flux.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="header">
+		<div id="logo">
+			<a href="#/home"><img src="img/Flux-logo.png"/></a>
+		</div>
+  		<div id="menu">
+  			<a active-link="active" href="#/home">Home</a>
+            <a active-link="active" href="#/societeit">Sociëteit</a>
+            <a active-link="active" href="#/verhuur">Verhuur</a>
+			<a active-link="active" href="#/contact">Contact</a>
+		</div>
+    </div>
+           
+    <div id="content">
+    	<div ng-view></div>       
+    </div>
+    <div style="clear:both;">&nbsp;</div>
+
+	<div id="alpha">
+		<a href="http://csvalpha.nl">
+			<img src="http://wesp.snt.utwente.nl/~alpha/prlo/templates/ubersexy/images/header_sticker2.png" />
+			CSV Alpha
+		</a>
+	</div>
+</body>
+</html>

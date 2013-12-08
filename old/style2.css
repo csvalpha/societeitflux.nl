@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background: #fff;
+	height:100%;
+}
+
+body{
+	font:15px/1.45 'Segoe UI',Arial, sans-serif;
+	margin: 0px auto;
+	background-position: center;
+	background: url("img/redwood.jpg") no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	height: 100%;
+}
+
+#container {
+	max-height: 100%;
+	overflow:scroll;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color: #2c2c2c;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+/*----------------------------
+	Top menu & header
+-----------------------------*/
+
+.header{
+	height:109px;
+	width: 900px;
+	margin: 0px auto;
+	/*background: url("img/redwood.jpg") no-repeat;*/
+	position: relative;
+	z-index: 100;
+	background-size:cover;
+	background-color: rgb(23,2,0);
+	opacity: 0.7;
+	
+	/*-webkit-box-shadow: 0 4px 4px 0px #000000;
+	-moz-box-shadow: 0 4px 4px 0px #000000;
+    box-shadow: 0 4px 4px 0px #000000;*/
+}
+#logo {
+	opacity: 0.7;
+	width: 250px;
+	padding: 10px;
+	margin-left: 60px;
+}
+
+ul#menu {
+	display: block;
+	height: 64px;
+	width: 341px;
+	list-style: none;
+  	position: absolute;
+	padding: 0;
+	left: 350px;
+	top: 45px; 
+}
+
+ul#menu li a {
+	display:block;
+  	outline: none;
+	overflow: hidden;
+	float:left;	
+	min-height: 28px;
+	font-size:25px;
+	color: #fff;
+	margin-right:20px;
+}
+
+ul#menu li a.active {
+	color:#ffd500;
+	border-bottom:28px solid #ffd500;
+}
+
+ul#menu li a:hover {
+	text-decoration:none;
+	color:#ffd500;
+}
+
+ul#menu li a.home_g{}
+
+ul#menu a.societeit_g {}
+
+ul#menu a.verhuur_g {}
+
+/*----------------------------
+	Content
+-----------------------------*/
+
+.content{
+	display:block;
+	height: 100%;
+	width: 900px;
+	margin: 0px auto;
+	background: #fff;
+	position: relative;
+}
+#inhoud {
+	padding: 25px 0px 0px 15px;
+}
+ul#block {
+	display: block;
+	height: 245px;
+	width: 774px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	background: url("img/line.png") no-repeat;
+	background-position: bottom;
+	margin: 0 auto;
+}
+
+
+ul#block .text {
+	display: block;
+	width: 363px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	padding-left: 15px;
+	padding-top: 25px;
+	float: left;
+}
+
+ul#block .photo {
+	display: block;
+	width: 348px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	padding-right: 15px;
+	padding-top: 25px;
+	float: right;
+}
+
+ul#block2 {
+	display: block;
+	height: 245px;
+	width: 774px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+ul#block2 .text {
+	display: block;
+	width: 363px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	padding-left: 15px;
+	padding-top: 25px;
+	float: left;
+}
+
+ul#block2 .photo {
+	display: block;
+	width: 348px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	padding-right: 15px;
+	padding-top: 25px;
+	float: right;
+}
+
+ul#block_societeit {
+	display: block;
+	height: 245px;
+	width: 774px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	margin: 0 auto;
+}
+
+ul#block_societeit .text_societeit {
+	display: block;
+	width: 363px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	padding-left: 15px;
+	padding-top: 25px;
+	float: left;
+	height: 241px;
+}
+
+ul#block_societeit .photo_societeit {
+	display: block;
+	width: 363px;
+	list-style: none;
+  	position: relative;
+	padding: 0;
+	padding-right: 15px;
+	padding-top: 25px;
+	float: right;
+}
+
+

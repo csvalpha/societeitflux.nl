@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="fluxApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Stichting Societeit Flux</title>
+	<link href="style2.css" rel="stylesheet" type="text/css" />
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="js/flux.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="container">
+	    <div class="header">
+			<div id="logo">
+				<img src="img/Flux-logo.png"/>
+			</div>
+	  		<ul id="menu">
+	  			<li><a active-link="active" href="#/home" class="home_g">Home</a></li>
+				<li><a active-link="active" href="#/societeit" class="societeit">Sociëteit</a></li>
+	  			<li><a active-link="active" href="#/verhuur" class="verhuur" >Verhuur</a></li>
+			</ul>
+	    </div>
+	           
+	    <div class="content">
+	    	<div ng-view></div>
+	    </div>
+	    <div style="clear:both;">&nbsp;</div>
+  	</div>
+
+</body>
+</html>
