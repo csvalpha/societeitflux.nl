@@ -9,14 +9,14 @@
 </p>
 
 <p>
-	Zoekt u een geschikte locatie voor een (afstudeer)borrel? Onze sociëteit is hier een prachtige locatie voor! 
+	Zoekt u een geschikte locatie voor een (afstudeer)borrel? Onze sociëteit is hier een prachtige locatie voor!
 	Voor meer informatie kunt u altijd per mail of telefonisch contact opnemen met de commissaris verhuur van het Sociëteitsbestuur, Joanne Lijbers.
 </p>
 
 <p>
-	Mocht u Flux willen reserveren verzoeken wij u onderstaand formulier zo volledig mogelijk in te vullen. 
+	Mocht u Flux willen reserveren verzoeken wij u onderstaand formulier zo volledig mogelijk in te vullen.
 	U zult zo snel mogelijk horen of uw verzoek gehonoreerd kan worden.
-</p> 
+</p>
 
 <p>
 	Joanne Lijbers<br>
@@ -25,42 +25,42 @@
 	E: <a href="mailto:sbcommissaris@csvalpha.nl">sbcommissaris@csvalpha.nl</a>
 </p>
 
-<form action="/sendform" method="post" enctype="text/plain" role="form" class="container_8" id="verhuur" name="verhuur">
+<form action="/sendform" method="post" role="form" class="container_8" id="verhuur" name="verhuur">
 	<hr>
 	<label class="grid_1 ar" for="voornaam"		>Voornaam 	</label>
-	<div class="grid_3"><input type="text" name="nameFirst" id="voornaam"></div>
+	<div class="grid_3"><input type="text" name="name.first" id="voornaam"></div>
 	<label class="grid_1 ar" for="achternaam"	>Achternaam </label>
-	<div class="grid_3"><input type="text" name="nameLast" id="achternaam"></div>
+	<div class="grid_3"><input type="text" name="name.last" id="achternaam"></div>
 	<label class="grid_1 ar" for="straat"			>Straatnaam </label>
-	<div class="grid_3"><input type="text" name="addressStreet" id="straat"></div>
+	<div class="grid_3"><input type="text" name="address.street" id="straat"></div>
 	<label class="grid_1 ar" for="huisnummer"	>Huisnummer </label>
-	<div class="grid_3"><input type="number" name="addressNumber" id="huisnummer"></div>
+	<div class="grid_3"><input type="number" name="address.number" id="huisnummer"></div>
 	<label class="grid_1 ar" for="postcode"		>Postcode 	</label>
-	<div class="grid_3"><input type="text" name="addressPostal" id="postcode"></div>
+	<div class="grid_3"><input type="text" name="address.postal" id="postcode"></div>
 	<label class="grid_1 ar" for="plaats"			>Plaats 		</label>
-	<div class="grid_3"><input type="text" name="addressPlace" id="plaats"></div>
+	<div class="grid_3"><input type="text" name="address.place" id="plaats"></div>
 	<label class="grid_1 ar" for="email"			>E-mailadres</label>
-	<div class="grid_3"><input type="email" name="contactEmail" id="email"></div>
+	<div class="grid_3"><input type="email" name="contact.email" id="email"></div>
 	<label class="grid_1 ar" for="telefoon"		>Telefoon 	</label>
-	<div class="grid_3"><input type="text" name="contactPhone" id="telefoon"></div>
+	<div class="grid_3"><input type="text" name="contact.phone" id="telefoon"></div>
 
 	<hr>
 
 	<label for="date" class="grid_3 ar">Wat is de datum van de borrel?</label>
-	<div class="grid_5"><input type="date" name="whenDate" id="date"></div>
+	<div class="grid_5"><input type="date" name="when.date" id="date"></div>
 
 	<div class="grid_3 ar">Wat is de begin- en eindtijd van de borrel?</div>
 	<label class="grid_1" for="startTime">Begin</label>
-	<div class="grid_4"><input type="time" name="whenStartTime" id="startTime"></div>
+	<div class="grid_4"><input type="time" name="when.startTime" id="startTime"></div>
 	<label class="grid_1 prefix_3" for="endTime">Eind</label>
-	<div class="grid_4"><input type="time" name="whenEndTime" id="endTime"></div>
+	<div class="grid_4"><input type="time" name="when.endTime" id="endTime"></div>
 
 	<hr>
 
 	<div class="grid_3">Neem je eten mee?</div>
-	<label for="dinnerNo"  class="grid_5"><input id="dinnerNo" type="radio" name="dinner" value="0" > Nee</label>
-	<label for="dinnerYes" class="grid_2 prefix_3"><input type="radio" name="dinner" value="1" id="dinnerYes">Ja, namelijk:</label>
-	<div class="grid_3"><input type="text" name="dinnerWhat"></div>
+	<label for="dinnerNo"  class="grid_5"><input id="dinnerNo" type="radio" name="dinner.included" value="0" > Nee</label>
+	<label for="dinnerYes" class="grid_2 prefix_3"><input type="radio" name="dinner.included" value="1" id="dinnerYes">Ja, namelijk:</label>
+	<div class="grid_3"><input type="text" name="dinner.what"></div>
 
 	<hr>
 
@@ -71,15 +71,15 @@
 	<hr>
 
 	<div class="grid_3">Moet er sterke drank besteld kunnen worden?</div>
-	<label for="strongYes" class="grid_3"><input id="strongYes" type="radio" name="strong" value="1">Ja</label>
-	<label for="strongNo" class="grid_3 prefix_3"><input id="strongNo" type="radio" name="strong" value="0">Nee</label>
+	<label for="liquorYes" class="grid_3"><input id="liquorYes" type="radio" name="liquor" value="1">Ja</label>
+	<label for="liquorNo" class="grid_3 prefix_3"><input id="liquorNo" type="radio" name="liquor" value="0">Nee</label>
 
 	<hr>
 
 	<div class="grid_3">Is er een bepaalde drank waarvan je denkt dat het extra veel besteld zal worden? (ook wijn)<br></div>
 	<label for="specialNo" class="grid_5"><input id="specialNo" type="radio" name="specialDrink" value="0">Nee</label>
 	<label for="specialYes" class="grid_2 prefix_3"><input id="specialYes" type="radio" name="specialDrink" value="1">Ja, namelijk</label>
-	<div class="grid_3"><input type="text" name="specialDrinkWhich"></div>
+	<div class="grid_3"><input type="text" name="specialDrink.which"></div>
 	<div class="clr">&nbsp;</div>
 
 	<label for="numberPeople" class="grid_3">Hoeveel mensen verwacht je dat er ongeveer gaan komen? (1-80 personen)</label>
@@ -96,12 +96,12 @@
 
 	<label for="comments" class="grid_3">Zijn er nog bijzonderheden of opmerkingen die je door wilt geven?</label>
 	<div class="grid_5" style="height:initial;"><textarea id="comments" name="comments"></textarea></div>
-	
+
 
 	<hr>
 
 	<div class="grid_5 prefix_3"><input type="submit" value="Verstuur"><input style="margin-left:30px;" type="reset" value="Reset"></div>
 	<div class="clr">&nbsp;</div>
-	
+
 </p>
 </form>
