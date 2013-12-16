@@ -44,4 +44,4 @@ def server_static(filepath):
 		print filepath
 		return static_file(filepath, root="/home/flux/website/front")
 
-run(app,host='localhost', port=8080, debug=True)
+run(app,host='130.89.148.50', port=8080, debug=True)
