@@ -1,61 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*-------------------------
-	Simple reset
---------------------------*/
-
-
-*{
-	margin:0;
-	padding:0;
-}
-
 
 /*-------------------------
 	General Styles
 --------------------------*/
 
 
-html{
-	background: #fff;
-	height:100%;
+html {
+    background: #fff;
 }
 
 body, input, textarea {
-	font:15px/1.45 'Segoe UI',Arial, sans-serif;
+    font: 15px/1.45 'Segoe UI', Arial, sans-serif;
 }
 
-body{
-	margin: 0px auto;
-	background-position: center;
-	background: url("../img/redwood.jpg") no-repeat;
-	background-size: cover;
-	background-color: #fff;
-	min-height: 100%;
-	background-attachment: fixed;
-	overflow-y:scroll;
+body {
+    margin: 0px auto;
+    background-position: center;
+    background: url("../img/redwood.jpg") no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    min-height: 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
 }
 
 h1 {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 div#container {
-	min-height: 100%;
-	width: 100%;
-	overflow:scroll;
-	background-color:yellow;
+    min-height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-color: yellow;
 }
 
 a, a:visited {
-	text-decoration:none;
-	outline:none;
-	color: #2c2c2c;
+    text-decoration: none;
+    outline: none;
+    color: #2c2c2c;
 }
 
-a:hover{
-	text-decoration:underline;
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
 }
 
 
@@ -63,55 +56,82 @@ a:hover{
 	Top menu & header
 -----------------------------*/
 
-#header{
-	height:109px;
-	width: 900px;
-	margin: 0px auto;
-	/*background: url("img/redwood.jpg") no-repeat;*/
-	position: relative;
-	z-index: 100;
-	background-size:cover;
-	background-color: rgb(23,2,0);
-	opacity: 0.7;
-	
-	/*-webkit-box-shadow: 0 4px 4px 0px #000000;
-	-moz-box-shadow: 0 4px 4px 0px #000000;
+#header {
+    margin: 0px auto;
+    position: relative;
+    z-index: 100;
+    background-size: cover;
+    background-color: rgb(23, 2, 0);
+    opacity: 0.7;
+
+    /*-webkit-box-shadow: 0 4px 4px 0px #000000;
+    -moz-box-shadow: 0 4px 4px 0px #000000;
     box-shadow: 0 4px 4px 0px #000000;*/
 }
+
 div#logo {
-	opacity: 0.7;
-	width: 250px;
-	padding: 10px 0px 0px 30px;
+    opacity: 0.7;
+    height: 110px;
+    padding: 10px 0 10px 40px;
+    display: inline-block;
+}
+
+div#logo img {
+    width: 250px;
 }
 
 div#menu {
-	display: block;
-	height: 64px;
-	list-style: none;
-  	position: absolute;
-	padding: 0;
-	right: 40px;
-	top: 45px; 
+    display: inline-block;
+    height: 64px;
+    list-style: none;
+    padding: 0 40px;
+    float: right;
+    margin-top: 46px;
 }
 
 div#menu a {
-	display:block;
-  	outline: none;
-	overflow: hidden;
-	float:left;	
-	min-height: 28px;
-	font-size:25px;
-	color: #fff;
-	margin-right:20px;
+    display: block;
+    outline: none;
+    overflow: hidden;
+    float: left;
+    min-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 20px;
 }
+
 div#menu a:hover {
-	text-decoration:none;
-	color:#FDD539;
+    text-decoration: none;
+    color: #FDD539;
 }
 
 div#menu a.active {
-	color:#ffd500;
-	border-bottom:28px solid #ffd500;
+    color: #ffd500;
+    border-bottom: 28px solid #ffd500;
+}
+
+@media only screen and (max-width: 60em) { /* 960px */
+    div#logo, div#menu {
+        display: block;
+        padding: 20px;
+    }
+
+    div#menu {
+        float: none;
+        margin-top: 0;
+        height: auto;
+    }
+
+    div#menu a {
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    div#menu a.active {
+        border-bottom: 0;
+    }
 }
 
 /*----------------------------
@@ -119,57 +139,53 @@ div#menu a.active {
 -----------------------------*/
 
 div#alpha {
-	position: fixed;
-	right: 0px;
-	bottom: 20px;
-	z-index: 101;
-	background-color: rgba(23,2,0,0.7);
-	font-size: 20px;
-	color: #fff;
-	padding: 10px 20px 10px 35px;
-	vertical-align: middle;
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    z-index: 101;
+    background-color: rgba(23, 2, 0, 0.7);
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px 10px 35px;
+    vertical-align: middle;
 }
 
 div#alpha img {
-	height: 54px;
-	top: -1px;
-	left: -25px;
-	float: left;
-	position: absolute;
+    height: 54px;
+    width: 54px;
+    top: -1px;
+    left: -25px;
+    float: left;
+    position: absolute;
 }
 
-div#alpha a:hover {
-	text-decoration:none;
-	color:#FDD539;
+div#alpha a {
+    text-decoration: none;
+    color: #FDD539;
 }
 
 /*----------------------------
 	Content
 -----------------------------*/
 
-#content{
-	display:block;
-	height: 100%;
-	width: 820px;
-	margin: 0px auto;
-	background: #fff;
-	position: relative;
-	padding: 40px;
+#content {
+    display: block;
+    background: #fff;
+    position: relative;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 60em) { /* 960px */
+    #content {
+        padding: 20px;
+    }
 }
 
 p {
-	width: 100%;
-	margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
-#content img.right {
-	float:right;
-	margin-left: 20px;
-}
-#content img.left {
-	float:left;
-	margin-right: 20px;
-}
 .clearfix:after {
     content: ".";
     display: block;
@@ -178,65 +194,66 @@ p {
     line-height: 0;
     height: 0;
 }
- 
+
 .clearfix {
     display: inline-block;
 }
 
 .ar {
-	text-align: right;
+    text-align: right;
 }
 
-input[type=text], input[type=password], input[type=date], input[type=email],input[type=time],input[type=number], textarea {
-	padding: 5px 10px;
-	font-size:15px;
-	margin-bottom:10px;
+input[type=text], input[type=password], input[type=date], input[type=email], input[type=time], input[type=number], textarea {
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 input[type=radio], input[type=checkbox] {
-	margin: 5px 10px;
+    margin: 5px 10px;
 }
 
-form#verhuur input[type=text],form#verhuur input[type=password],form#verhuur input[type=email] {
-	width:100%;
-	box-sizing: border-box;
+form#verhuur input[type=text], form#verhuur input[type=password], form#verhuur input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
 }
+
 form#verhuur div {
-	height: 35px;
-	margin-bottom:10px;
+    height: 35px;
+    margin-bottom: 10px;
 }
 
 form#verhuur label {
-	padding-top: 5px;
-	height:35px;
+    padding-top: 5px;
+    height: 35px;
 }
 
 form#verhuur hr {
-	clear: both;
-	margin: 20px 0px;
+    clear: both;
+    margin: 20px 0px;
 }
 
 form#verhuur textarea {
-	width:75%;
-	height: 4em;
+    width: 75%;
+    height: 4em;
 }
 
 form#verhuur button, form#verhuur input[type=button], form#verhuur input[type=submit], form#verhuur input[type=reset] {
-	border: none;
-	padding: 10px 30px;
-	font-weight: bold;
-	background-color:  #2c2c2c;
-	color:white;
-	border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #2c2c2c;
+    color: white;
+    border-radius: 10px;
 }
 
 form#verhuur button:hover, form#verhuur input[type=button]:hover, form#verhuur input[type=submit]:hover, form#verhuur input[type=reset]:hover {
-	background-color: black;
-	cursor:pointer;
+    background-color: black;
+    cursor: pointer;
 }
 
 .clr {
-	clear:both;
-	max-height: 1px;
-	overflow: hidden;
+    clear: both;
+    max-height: 1px;
+    overflow: hidden;
 }
