@@ -24,10 +24,16 @@ body {
     min-height: 100%;
     background-attachment: fixed;
     overflow-y: scroll;
+    color: #2c2c2c;
 }
 
 h1 {
     margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 div#container {
@@ -40,7 +46,21 @@ div#container {
 a, a:visited {
     text-decoration: none;
     outline: none;
-    color: #2c2c2c;
+    color: #c89a00;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c89a00;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+a.button:hover {
+    text-decoration: none;
+    background-color: #d5a500;
 }
 
 a:hover {
@@ -49,6 +69,16 @@ a:hover {
 
 img {
     width: 100%;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+    padding-right: 15px;
+}
+
+table {
+    margin-bottom: 15px;
 }
 
 
@@ -102,12 +132,12 @@ div#menu a {
 
 div#menu a:hover {
     text-decoration: none;
-    color: #FDD539;
+    color: #c89a00;
 }
 
 div#menu a.active {
-    color: #ffd500;
-    border-bottom: 28px solid #ffd500;
+    color: #c89a00;
+    border-bottom: 26px solid #c89a00;
 }
 
 @media only screen and (max-width: 60em) { /* 960px */
@@ -161,7 +191,7 @@ div#alpha img {
 
 div#alpha a {
     text-decoration: none;
-    color: #FDD539;
+    color: #c89a00;
 }
 
 /*----------------------------
@@ -183,7 +213,8 @@ div#alpha a {
 
 p {
     width: 100%;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .clearfix:after {
