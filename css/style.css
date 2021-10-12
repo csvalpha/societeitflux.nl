@@ -110,7 +110,7 @@ div#logo img {
     width: 250px;
 }
 
-div#menu {
+nav#menu {
     display: inline-block;
     height: 64px;
     list-style: none;
@@ -119,7 +119,7 @@ div#menu {
     margin-top: 46px;
 }
 
-div#menu a {
+nav#menu a {
     display: block;
     outline: none;
     overflow: hidden;
@@ -130,36 +130,36 @@ div#menu a {
     margin-right: 20px;
 }
 
-div#menu a:hover {
+nav#menu a:hover {
     text-decoration: none;
     color: #c89a00;
 }
 
-div#menu a.active {
+nav#menu a.active {
     color: #c89a00;
     border-bottom: 26px solid #c89a00;
 }
 
 @media only screen and (max-width: 60em) { /* 960px */
-    div#logo, div#menu {
+    div#logo, nav#menu {
         display: block;
         padding: 20px;
     }
 
-    div#menu {
+    nav#menu {
         float: none;
         margin-top: 0;
         height: auto;
     }
 
-    div#menu a {
+    nav#menu a {
         font-size: 20px;
         display: block;
         width: 100%;
         float: none;
     }
 
-    div#menu a.active {
+    nav#menu a.active {
         border-bottom: 0;
     }
 }
