@@ -18,7 +18,7 @@ body, input, textarea {
 body {
     margin: 0px auto;
     background-position: center;
-    background: url("../img/redwood.jpg") no-repeat;
+    background: url("..//img/redwood.jpg") no-repeat;
     background-size: cover;
     background-color: #fff;
     min-height: 100%;

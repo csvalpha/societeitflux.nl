@@ -1,0 +1,5 @@
+title: "Stichting Sociëteit Flux"
+url: "https://societeitflux.nl"
+markdown: kramdown
+kramdown: 
+  parse_block_html: true
