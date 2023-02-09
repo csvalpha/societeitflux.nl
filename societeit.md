@@ -19,5 +19,5 @@ Wilt u meer weten over de huurmogelijkheden? Kijk dan op de pagina 'Verhuur'.
 
 <div class="row">
 ![Sociëteit Flux](/img/foto_societeit_2.jpg){: .col-6}
-![Sociëteit Flux](/img/foto_societeit_2.jpg){: .col-6}
+![Sociëteit Flux](/img/foto_societeit_3.jpg){: .col-6}
 </div>
