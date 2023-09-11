@@ -17,5 +17,5 @@ Oude Markt 24-3
 [secretaris@societeitflux.nl](mailto:secretaris@societeitflux.nl)
 
 ### Verhuur
-[06-12234738](tel:+31612234738)  
+[06-40285321](tel:+31640285321)  
 [commissaris@societeitflux.nl](mailto:commissaris@societeitflux.nl)

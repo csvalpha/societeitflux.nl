@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Verhuur
-excerpt: Sociëteit Flux al vanaf €25,- te huren. De sociëteit biedt ruimte biedt aan zo'n 80 personen. Het is de ideale locatie voor onder meer afstudeerborrels, verjaardagsfeesten, dispuutsactiviteiten en nog veel meer.
+excerpt: Sociëteit Flux al vanaf €35,- te huren. De sociëteit biedt ruimte biedt aan zo'n 80 personen. Het is de ideale locatie voor onder meer afstudeerborrels, verjaardagsfeesten, dispuutsactiviteiten en nog veel meer.
 
 ---
 
@@ -59,9 +59,9 @@ Ons assortiment aan dranken staat hieronder, inclusief prijzen.
 *Dit assortiment is per week verschillend. Vraag naar het huidig aanbod aan de verhuurder
 
 ### Verhuurinformatie
-Voor het geven van een borrel kan de Sociëteit gehuurd worden door contact op te nemen met Afke Vermeulen.
+Voor het geven van een borrel kan de Sociëteit gehuurd worden door contact op te nemen met onze commissaris verhuur.
 Mail hiervoor naar [commissaris@societeitflux.nl](mailto:commissaris@societeitflux.nl) of bel:
-[06-12234738](tel:+31612234738). Gelieve ruim van tevoren aangeven indien u
+[06-40285321](tel:+31640285321). Gelieve ruim van tevoren aangeven indien u
 Flux wilt huren, ongeveer 2 weken voor de borrel.
 
 De kosten voor een borrel zijn:
@@ -73,7 +73,7 @@ De kosten voor een borrel zijn:
     </tr>
     <tr>
         <th>Vaste huurprijs:</th>
-        <td>&euro; 25,-</td>
+        <td>&euro; 35,-</td>
     </tr>
     <tr>
         <th>Per tapper:</th>
@@ -93,7 +93,7 @@ De kosten voor een borrel zijn:
     </tr>
 </table>
 
-De vaste kosten zijn dus &euro; 25,- voor de huur van de sociëteit plus de vaste kosten voor de tappers. Mocht de beamer en/of het pinapparaat gebruikt worden dan kost dit &euro; 10,- extra per apparaat.
+De vaste kosten zijn dus &euro; 35,- voor de huur van de sociëteit plus de vaste kosten voor de tappers. Mocht de beamer en/of het pinapparaat gebruikt worden dan kost dit &euro; 10,- extra per apparaat.
 Bovenop deze kosten komen uiteraard nog de kosten van de geconsumeerde drank- en etenswaren.
 
 Standaard wordt de borrel verzorgd door 2 tappers. De uren van de tappers worden gerekend vanaf het opstarten
@@ -103,6 +103,6 @@ Verder wordt er onder geen enkele omstandigheid gerookt binnen de Sociëteit en 
 Voor de Pakkerij kan er gerookt worden.
 
 Voor vragen of opmerkingen kunt u mailen naar [commissaris@societeitflux.nl](mailto:commissaris@societeitflux.nl) 
-of bel naar [06-12234738](tel:+31612234738).
+of bel naar [06-45115401](tel:+31640285321).
 
 Wij zien u graag verschijnen in onze prachtige Sociëteit!
