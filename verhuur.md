@@ -103,6 +103,6 @@ Verder wordt er onder geen enkele omstandigheid gerookt binnen de Sociëteit en 
 Voor de Pakkerij kan er gerookt worden.
 
 Voor vragen of opmerkingen kunt u mailen naar [commissaris@societeitflux.nl](mailto:commissaris@societeitflux.nl) 
-of bel naar [06-45115401](tel:+31640285321).
+of bel naar [06-19220071](tel:+31619220071).
 
 Wij zien u graag verschijnen in onze prachtige Sociëteit!
