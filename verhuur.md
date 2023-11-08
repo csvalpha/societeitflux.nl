@@ -61,7 +61,7 @@ Ons assortiment aan dranken staat hieronder, inclusief prijzen.
 ### Verhuurinformatie
 Voor het geven van een borrel kan de Sociëteit gehuurd worden door contact op te nemen met onze commissaris verhuur.
 Mail hiervoor naar [commissaris@societeitflux.nl](mailto:commissaris@societeitflux.nl) of bel:
-[06-40285321](tel:+31640285321). Gelieve ruim van tevoren aangeven indien u
+[06-19220071](tel:+31619220071). Gelieve ruim van tevoren aangeven indien u
 Flux wilt huren, ongeveer 2 weken voor de borrel.
 
 De kosten voor een borrel zijn:
